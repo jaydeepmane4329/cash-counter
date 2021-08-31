@@ -1,0 +1,103 @@
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* height: 100%;
+   width: 100%; */
+   padding: 0%;
+   margin: 0%;
+   background-image: url(images/Cash-Counter.jpg);
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position: center;
+}
+#box{
+    text-align: center;
+    background-color: black;
+    height: 80%;
+    width: 70%;
+    opacity: 0.8;
+    border-top-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+.fas{
+    color:darkgreen;
+    font-size: 100px;
+    margin-top: 10px;
+}
+#input{
+ margin-top: 50px;
+ width: 30%;
+ height: 5%;
+ border-top-left-radius: 10px;
+ border-bottom-left-radius: 10px;
+ border: none;
+ 
+
+
+}
+#btn{
+    background-color:rgba(10, 10, 20, 0.836);
+    height: 5%;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+#btn:hover{
+     cursor: pointer;
+     background-color: transparent;
+}
+.input{
+    margin-top: 50px;
+    width: 30%;
+    height: 5%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+}
+.button{
+    background-color:rgba(10, 10, 20, 0.836);
+    height: 5%;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: transparent;
+}
+.return{
+    color: darkgreen;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 900;
+}
+.invalid{
+    color: darkred;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.dist{
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+    margin-top: 30px;
+}
+.title{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: inherit;
+    margin-top: 50px;
+    transition: ease-in-out;
+    
+}
+@media only screen and (max-width:480px){
+    h1{
+        font-size: 20px;
+        margin-top: 150px;
+    }
+}
