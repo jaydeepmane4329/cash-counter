@@ -14,8 +14,8 @@ body{
 #box{
     text-align: center;
     background-color: black;
-    height: 80%;
-    width: 70%;
+    height: 600px;
+    width: 800px;
     opacity: 0.8;
     border-top-left-radius: 300px;
     border-bottom-right-radius: 300px;
@@ -78,7 +78,7 @@ body{
     color: darkred;
     font-weight: 900;
     font-size: 30px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .dist{
     color: white;
@@ -101,8 +101,7 @@ body{
         margin-top: 120px;
     }
     .return {
-        font-size:20px ;
-        margin: 0;
+        font-size:20px;
     }
     .fas{
         font-size: 50px;
@@ -113,6 +112,7 @@ body{
     .dist{
         font-size: 15px;
     }
-    
-    
+    #box{
+        width: 500px;
+    }
 }
